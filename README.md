@@ -4,12 +4,13 @@
 
 Este proyecto es una herramienta inteligente diseñada para generar planes alimenticios personalizados, especialmente para mujeres con resistencia a la insulina. 
 
-Utiliza un enfoque de RAG combinando información local (PDFs de menús preexistentes) y con conocimiento externo (búsquedas en DuckDuckGo y Arxiv).
+Surge por la necesidad de obtener nuevas ideas tanto de ingredientes como de recetas, así se evita comer siempre lo mismo y "pecar" en alimentos prohibidos pero muy antojables. 
 
-El objetivo es proporcionar menús adaptados a necesidades específicas como: la duración del plan, el número de porciones y/o la exclusión de alimentos por el usuario. 
+El objetivo es proporcionar menús adaptados a necesidades específicas como: el propósito del plan, la duración, el número de porciones y/o la exclusión de alimentos por el usuario (sea por alergias o por desagrado). 
 
 La salida es un plan detallado con recetas, ingredientes, instrucciones e información nutricional. Para facilidad del usuario dicho plan se puede exportar a formatos PDF y/o HTML.
 
+Utiliza un enfoque de RAG combinando información local (PDFs de menús preexistentes) y con conocimiento externo (búsquedas en DuckDuckGo y Arxiv).
 
 ### Requisitos Previos
 
@@ -158,8 +159,13 @@ La salida es un plan detallado con recetas, ingredientes, instrucciones e inform
 
 ### Ejemplo de Interacción para la Exportación
 
-    ```
+```
        ¿En qué formatos te gustaría descargar tu plan alimenticio?
        ¿Exportar a PDF? (s/n): s
        ¿Exportar a HTML? (s/n): s
-        ```  
+```  
+
+Si respondes 's' a ambas, se generarán dos archivos en la misma carpeta que tu notebook (o en el entorno de Colab):
+
+* `plan_alimenticio_YYYYMMDD_HHMMSS.pdf`
+* `plan_alimenticio_YYYYMMDD_HHMMSS.html`
