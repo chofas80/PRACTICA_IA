@@ -4,7 +4,7 @@
 
 Este proyecto es una herramienta inteligente diseñada para generar planes alimenticios personalizados, especialmente para mujeres con resistencia a la insulina. 
 
-Surge por la necesidad de obtener nuevas ideas tanto de ingredientes como de recetas, así se evita comer siempre lo mismo y "pecar" en alimentos prohibidos pero muy antojables. 
+Surge por la necesidad de obtener nuevas ideas para evita comer siempre lo mismo y "pecar" en alimentos prohibidos pero muy antojables. 
 
 El objetivo es proporcionar menús adaptados a necesidades específicas como: el propósito del plan, la duración, el número de porciones y/o la exclusión de alimentos por el usuario (sea por alergias o por desagrado). 
 
