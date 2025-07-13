@@ -1,0 +1,13 @@
+langchain==0.2.0
+langchain-core==0.2.11
+langchain-community==0.2.0
+langchain-openai==0.1.8
+pypdf==4.2.0
+faiss-cpu==1.7.4
+openai # Asegurarse de que el paquete 'openai' esté presente
+duckduckgo_search==5.1.0
+arxiv==2.0.0
+weasyprint==62.0
+markdown2==2.4.12
+python-dotenv
+pdfkit
